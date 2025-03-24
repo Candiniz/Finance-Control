@@ -1,70 +1,69 @@
-# Getting Started with Create React App
+# Finance Control
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Finance Control é um sistema de controle financeiro desenvolvido em **React**. Este foi o meu primeiro projeto utilizando o framework e serviu como uma excelente oportunidade para consolidar meu aprendizado, especialmente no trabalho com **estados e manipulação de dados interativos**.
 
-## Available Scripts
+O sistema permite **adicionar custos e ganhos**, calculando automaticamente:
+- 📊 **Total de despesas**
+- 💰 **Total de receitas**
+- 🔢 **Saldo final após as transações**
 
-In the project directory, you can run:
+O projeto foi desenvolvido durante meu intercâmbio na **Irlanda, em 2023**, e os valores foram programados em **euros €**.
 
-### `yarn start`
+## 🚀 Tecnologias Utilizadas
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **React.js** - Construção da interface interativa
+- **JavaScript (ES6+)** - Manipulação de estados e dados dinâmicos
+- **CSS3** - Estilização da interface
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 📂 Como Rodar o Projeto
 
-### `yarn test`
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/Candiniz/Finance-Control.git
+   ```
+2. Acesse a pasta do projeto:
+   ```bash
+   cd Finance-Control
+   ```
+3. Instale as dependências:
+   ```bash
+   npm install
+   ```
+4. Execute o projeto:
+   ```bash
+   npm start
+   ```
+5. Acesse **http://localhost:3000** no navegador.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 📈 Possíveis Melhorias Futuras
 
-### `yarn build`
+- **Conversão de moeda** para outras unidades
+- **Autenticação de usuários** para armazenar dados individuais
+- **Gráficos interativos** para uma melhor visualização dos gastos
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🤝 Contribuição
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Sinta-se à vontade para contribuir com melhorias! Para isso:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Fork o repositório
+2. Crie uma nova branch:
+   ```bash
+   git checkout -b minha-melhoria
+   ```
+3. Faça suas modificações e commite:
+   ```bash
+   git commit -m "Melhoria: Adicionei nova funcionalidade X"
+   ```
+4. Envie para o repositório remoto:
+   ```bash
+   git push origin minha-melhoria
+   ```
+5. Abra um Pull Request 🚀
 
-### `yarn eject`
+## 📜 Licença
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Este projeto foi criado para fins de aprendizado e prática de React. Caso tenha interesse em utilizá-lo, entre em contato!
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+📌 **Finance Control** foi um grande passo na minha jornada de aprendizado em React e JavaScript, reforçando meus conhecimentos sobre estados, manipulação de dados e interatividade em aplicações web. Obrigado por conferir este projeto! 😊
